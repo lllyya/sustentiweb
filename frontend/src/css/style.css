@@ -1,0 +1,91 @@
+/* Seletores gerais */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Fim seletores gerais */
+
+/* Classes */
+/* Classes bootstrap */
+.link-warning,
+.link-light {
+  text-decoration: none;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  font-family: 'Chonburi', cursive;
+}
+
+.success {
+  background-color: rgba(13, 255, 0, 0.355);
+}
+
+.bi-telephone {
+  color: green;
+}
+
+.bi-whatsapp {
+  color: green;
+}
+
+.bi-google {
+  color: yellow;
+}
+
+.bi-facebook {
+  color: rgb(6, 141, 237);
+}
+
+.bi-instagram {
+  color: rgb(143, 0, 245)
+}
+
+/* Fim classes bootstrap */
+
+/* Classes prórpias */
+
+.link-menu:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+  font-family: 'Chonburi', cursive;
+}
+
+/* CONTENT */
+
+.content {
+  padding: 40px;
+}
+
+/* IDs */
+
+#cardapio {
+  box-sizing: border-box;
+  margin-top: 200px;
+  overflow: auto;
+}
+
+#footer {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.cookies {
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 3;
+  bottom: 0;
+  padding: 10px;
+}
+
+@media (max-width: 991px) {
+  .btn-cookies {
+    width: 100%;
+  }
+}
